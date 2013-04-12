@@ -1,5 +1,5 @@
 === WerkPress Theme Customization Request ===
-Contributors: (this should be a list of wordpress.org userid's)
+Contributors: ericmjorgensen, zachhink
 Donate link: http://werkpress.com/
 Tags: theme customization, customization
 Requires at least: 3.0
