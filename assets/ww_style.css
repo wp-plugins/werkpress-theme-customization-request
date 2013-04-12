@@ -1,0 +1,164 @@
+/* Werkpress Dashboard Widget */
+
+a {
+    color: #3d9a95;
+}
+
+h1  {
+    margin: 0;
+}
+
+#werkpress-dashboard-widget.postbox {
+	background: #ffffff;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.postbox .inside {
+	padding: 15px 30px;
+}
+
+#werkpress-dashboard-widget h2 {
+    font-size: 12px;
+    color: #be3d40;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+#ww_form {
+    clear: both;
+    margin-top: 50px;
+}
+
+#ww_form ul {
+	list-style: none;
+	padding: 0;
+	display: block;
+}
+
+#ww_form li {
+	width: 44%;
+	margin-right: 3%;
+	display: inline-block;
+}
+
+#ww_form li.right	{
+	float:right;
+	margin-right: 0;
+}
+
+#ww_form li#ww_textarea, #ww_form li#ww_submit {
+	display: block;
+}
+
+#ww_form label {
+	color: #3d9a95;
+	font-family: 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+#ww_form input, #ww_form textarea {
+	background: #f6f5f2;
+	padding: 10px;
+	border: none;
+	width: 100%;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	    -ms-border-radius: 3px;
+	     -o-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: inset 0 3px #5ecec8; 
+	   -moz-box-shadow: inset 0 3px #5ecec8;
+	    -ms-box-shadow: inset 0 3px #5ecec8;
+	     -o-box-shadow: inset 0 3px #5ecec8;
+	        box-shadow: inset 0 3px #5ecec8;
+	-webkit-transition: all .2s ease-in-out; 
+	   -moz-transition: all .2s ease-in-out; 
+	    -ms-transition: all .2s ease-in-out; 
+	     -o-transition: all .2s ease-in-out;
+	        transition: all .2s ease-in-out;
+}
+
+#ww_form #ww_textarea	{
+	width: 100%;
+}
+
+#ww_form textarea {display: block; height: 100px;}
+
+#ww_form input:focus, #ww_form textarea:focus {
+	-webkit-box-shadow: inset 0 3px #3cb7b0; 
+	   -moz-box-shadow: inset 0 3px #3cb7b0;
+	    -ms-box-shadow: inset 0 3px #3cb7b0;
+	     -o-box-shadow: inset 0 3px #3cb7b0;
+	        box-shadow: inset 0 3px #3cb7b0;	
+}
+
+#ww_form select {
+	appearance: none;
+	-webkit-appearance:none;
+    width: 100%;
+	height: auto;
+	background: #f6f5f2;
+	padding: 10px 25px 10px 10px;
+	margin-bottom: 25px;
+	cursor: pointer;
+	color: #3d9a95;
+	background: url('arrow.png') no-repeat 93% 50%;
+	background-size: 10px 9px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	    -ms-border-radius: 3px;
+	     -o-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0 3px rgba(0,0,0,0.2); 
+	   -moz-box-shadow: 0 3px rgba(0,0,0,0.2);
+	    -ms-box-shadow: 0 3px rgba(0,0,0,0.2);
+	     -o-box-shadow: 0 3px rgba(0,0,0,0.2);
+	        box-shadow: 0 3px rgba(0,0,0,0.2);
+				
+}
+
+#ww_form submit, #ww_form input[type="submit"] {
+	display: block;
+	background: #f55659;
+	border: none;
+	color: #ffffff;
+	border-bottom: 3px solid #be3d40;
+	-webkit-box-shadow: none; 
+	   -moz-box-shadow: none;
+	    -ms-box-shadow: none;
+	     -o-box-shadow: none;
+	        box-shadow: none;
+	-webkit-transition: all .2s ease-in-out; 
+	   -moz-transition: all .2s ease-in-out; 
+	    -ms-transition: all .2s ease-in-out; 
+	     -o-transition: all .2s ease-in-out;
+	        transition: all .2s ease-in-out;
+}
+
+#ww_form submit:hover, #ww_form submit:focus, #ww_form input[type="submit"]:hover, #ww_form input[type="submit"]:focus {
+	cursor: pointer;
+    -moz-box-shadow:0px 2px 0px #be3d40;
+    -webkit-box-shadow:0px 2px 0px #be3d40;
+	box-shadow: 0px 2px 0px #be3d40;
+    opacity: .9;
+}
+
+#ww_form submit:active, #ww_form input[type="submit"]:active {
+	background: #be3d40;
+	border-top: 3px solid #962a2c; 
+	border-bottom: none;
+}
+
+#ww_form span.req    {
+    font-weight: bold;
+    color: #be3d40;
+}
