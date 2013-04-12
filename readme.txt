@@ -12,7 +12,7 @@ Adds a dashboard widget that allows users to request a WerkPress theme customiza
 
 == Description ==
 
-This plugin adds a widget to the WordPress dashboard that allows users to submit a theme customization request from within WordPress itself, rather than having to visit werkpress.com.
+This plugin adds a widget to the WordPress dashboard that allows users to submit a theme customization request from within WordPress itself, rather than having to visit [werkpress.com](http://werkpress.com). Come to think of it, you should visit us [there](http://werkpress.com) anyway.
 
 == Installation ==
 
