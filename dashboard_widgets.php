@@ -3,7 +3,7 @@
 Plugin Name: WerkPress Theme Customization Request
 Plugin URI:
 Description: Request a Wordpress Theme Customization from Werkpress
-Version: 0.5.1b
+Version: 0.5.2b
 Author: Werkpress
 Author URI:
 License: GPL2
@@ -32,7 +32,6 @@ class WerkpressDashboardWidget {
     }
  
     function __construct() {
-        add_action( 'wp_dashboard_setup', array( $this, 'remove_dashboard_widgets' ) );
         add_action( 'wp_dashboard_setup', array( $this, 'add_dashboard_widgets' ) );
     }
  
