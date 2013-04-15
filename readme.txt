@@ -32,6 +32,9 @@ No way. We will use your email address to contact you about your customization r
 
 == Changelog ==
 
+= 0.5.1b =
+* Fixed array declaration error for earlier versions of PHP (before PHP 5.4.x).
+
 = 0.5b =
 * Initial beta version.
 
