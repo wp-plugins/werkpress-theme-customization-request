@@ -79,7 +79,6 @@ class WerkpressDashboardWidget {
     	$message .= "Budget: $budget \n";
         $message .= "---\n";
         
-        $headers = [];
         $headers[] = "From: $name <$email>";
         $headers[] = "Reply-to: $name <$email>";
         
