@@ -1,10 +1,10 @@
 /* Werkpress Dashboard Widget */
 
-a {
+#werkpress-dashboard-widget a {
     color: #3d9a95;
 }
 
-h1  {
+#werkpress-dashboard-widget h1  {
     margin: 0;
 }
 
@@ -12,15 +12,15 @@ h1  {
 	background: #ffffff;
 }
 
-.alignleft {
+#werkpress-dashboard-widget .alignleft {
     float: left;
 }
 
-.alignright {
+#werkpress-dashboard-widget .alignright {
     float: right;
 }
 
-.postbox .inside {
+#werkpress-dashboard-widget .postbox .inside {
 	padding: 15px 30px;
 }
 
