@@ -1,5 +1,5 @@
 === WerkPress Theme Customization Request ===
-Contributors: ericmjorgensen, zachhink
+Contributors: ericmjorgensen, zachhink, werkpress
 Donate link: http://werkpress.com/
 Tags: theme customization, customization
 Requires at least: 3.0
